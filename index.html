@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    
+    @import url("https://fonts.google.com/specimen/Lexend+Deca");
+    @import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+
+    .button{
+    width: 50%;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Big Shoulders Display", sans-serif;    
+    position: relative;
+    background-color: transparent;
+    border-color: hsl(0, 0%, 95%);
+    color:white;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 20%;
+    }
+
+    .button2{
+    width: 50%;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Big Shoulders Display", sans-serif;   
+    position: relative;
+    background-color: transparent;
+    border-color: hsl(0, 0%, 95%);
+    color:white;
+    padding: 10px;
+    margin-top: 20%;
+    }
+
+    .button3{
+    width: 50%;
+    font-size: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Big Shoulders Display", sans-serif;   
+    position: relative;
+    background-color: transparent;
+    border-color: hsl(0, 0%, 95%);
+    color:white;
+    padding: 10px;
+    margin-left: 15%;
+    margin-top: 20%;
+    }
+
+    body{
+      font-family:"Lexend Deca", sans-serif;
+      font-size: 15px;
+    }
+
+    .attribution {
+       font-size: 15px; 
+       text-align: center;
+      }
+    
+      .attribution a { 
+        color: hsl(228, 45%, 44%);
+       }
+
+    .Sedans{
+      display: flex; 
+      width: 250px; 
+      height: 400px; 
+      background-color: hsl(31, 77%, 52%); 
+      text-align:left;
+    }
+
+    .SUVs{
+      display: flex; 
+      width: 250px; 
+      height: 400px; 
+      background-color:hsl(184, 100%, 22%); 
+      text-align: left;
+    }
+
+    .Luxury{
+      display: flex; 
+      width: 250px; 
+      height: 400px; 
+      background-color: hsl(179, 100%, 13%); 
+      text-align: left;
+    }
+
+    h1{
+      color: hsla(0, 0%, 100%, 0.75);
+      margin-left: 15%;
+      margin-top: 10%;
+      font-family: "Big Shoulders Display", sans-serif;
+    }
+
+    .Cars{
+      display: flex; 
+      flex-direction: row; 
+      justify-content: center; 
+      align-items: center;
+      margin-top: 12.5%;
+      font-family: "Big Shoulders Display", sans-serif;
+    }
+
+    p{
+      color: hsla(0, 0%, 100%, 0.75); 
+      text-align: left; 
+      font: "Big Shoulders Display";
+      margin-left: 15%;
+      margin-top: 10%;
+    }
+
+    .hero-image{
+      margin-left: 15%;
+      margin-top: 10%;
+    }
+
+  </style>
+</head>
+<body>
+<div class="Cars">
+  <div class="Sedans">
+  
+    <div class="container">
+      <img class="hero-image" src="./images/icon-sedans.svg" alt="Hero Image">
+      <h1>SEDANS</h1>
+      <p>Choose a sedan for its
+        affordability and excellent
+        fuel economy. Ideal for
+        cruising in the city or on
+        your next road trip. 
+      </p>
+      <button class="button">Learn More</button>
+    </div>
+  </div>
+  
+  <div class="SUVs">
+    <div class="container">
+      <img class="hero-image" src="./images/icon-suvs.svg" alt="Hero Image">
+      <h1>SUVs</h1>
+      <p>
+        Take an SUV for its spacious
+        interior, power, and
+        versatility. Perfect for your
+        next family vacation and
+        off-road adventures.
+      <p>
+      <button class="button2">Learn More</button>
+    </div>
+  </div>
+  
+  <div class="Luxury">  
+  
+    <div class="container">
+      <img class="hero-image" src="./images/icon-luxury.svg" alt="Hero Image">
+      <h1>LUXURY</h1>
+      <p> 
+        Cruise in the best car brands
+        without the bloated prices.
+        Enjoy the enhanced comfort
+        of a luxury rental 
+        and arrive in style.
+      </p>
+      <button class="button3">Learn More</button>
+    </div>
+  </div>
+</div>
+
+  
+</body>
+</html>
